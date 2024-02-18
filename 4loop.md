@@ -11,9 +11,12 @@ func main() {
 		fmt.Println(i)
 		i = i + 1
 	}
-
-    // go1.22.0 edition
-    fmt.Println("#########################################################")
+	fmt.Println("#########################################################")
+	// go1.22.0 edition //range over integers
+	for i := range 10 {
+		fmt.Println(i)
+	}
+	fmt.Println("#########################################################")
 	for j := 0; j < 3; j++ {
 		fmt.Println(j)
 	}
@@ -34,6 +37,7 @@ func main() {
 		fmt.Println(n)
 	}
 }
+
 
 ```
 .

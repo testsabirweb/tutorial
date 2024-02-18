@@ -1,3 +1,6 @@
+## map
+
+```go
 package main
 
 import (
@@ -44,3 +47,4 @@ func main() {
         fmt.Printf("key[%s] value[%d]\n", k, v)
     }
 }
+```
