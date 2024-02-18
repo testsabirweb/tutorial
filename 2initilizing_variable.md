@@ -7,6 +7,12 @@ import "fmt"
 func main() {
 	// Using make function
 	sliceMake := make([]int, 3, 5)
+	fmt.Println("Slice initialized with make:", sliceMake)
+	fmt.Println(cap(sliceMake), len(sliceMake))
+
+	sliceMake = append(sliceMake, 2, 3, 4, 5)
+	fmt.Println("Slice initialized with make:", sliceMake)
+	fmt.Println(cap(sliceMake), len(sliceMake))
 
 	// Using a composite literal
 	fruits := []string{"apple", "orange", "banana"}

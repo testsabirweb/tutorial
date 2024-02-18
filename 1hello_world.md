@@ -68,3 +68,17 @@ go fmt ./
 ### go.mod VS go.sum
 - go.mod file: Configuration file for a Go module. Specifies the module name, Go version, and dependencies.
 - go.sum file: Records checksums for specific versions of module dependencies. Ensures the integrity and reproducibility of builds.
+
+### Directory structure and using external package
+```go
+package main
+
+import (
+	"fmt"
+	"github.com/google/uuid"
+)
+// go get github.com/google/uuid
+func main() {
+	fmt.Println(uuid.New().String())
+}
+```

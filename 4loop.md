@@ -12,7 +12,7 @@ func main() {
 		i = i + 1
 	}
 
-    #####go1.22.0 edition
+    // go1.22.0 edition
     fmt.Println("#########################################################")
 	for j := 0; j < 3; j++ {
 		fmt.Println(j)
