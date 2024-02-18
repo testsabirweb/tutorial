@@ -27,7 +27,7 @@ func main() {
 	c := make([]string, len(s))
 	copy(c, s)
 	fmt.Println("cpy:", c)
-	c = append(c, []string{"p", "q", "r"}...) ///another good to know method for slice in slice
+	c = append(c, []string{"p", "q", "r"}...) ///another good to know method for slice in slice //Spread
 	fmt.Println("cpy:", c)
 
 	//////////////////////////////////
