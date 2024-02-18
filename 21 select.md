@@ -1,3 +1,6 @@
+## Select
+**select** statement is used for communication and synchronization between goroutines. It allows a goroutine to wait on multiple communication operations and proceed when one of them is ready. The select statement is often used with channels.
+```go
 package main
 
 import (
@@ -35,3 +38,4 @@ func main() {
 		time.Sleep(1 * time.Second)
 	}
 }
+```
