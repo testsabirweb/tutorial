@@ -1,3 +1,8 @@
+## waitgroup
+**sync.WaitGroup** is used to wait for a collection of goroutines to finish before proceeding.
+It ensures that the main goroutine does not exit before other goroutines are done.
+
+```go
 package main
 
 import (
@@ -26,3 +31,4 @@ func main() {
 	wg.Wait()
 	fmt.Println("All workers done")
 }
+```
