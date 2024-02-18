@@ -1,4 +1,4 @@
-## interface
+## interface (Very Important)
 Interface is a type that specifies a set of method signatures. It defines a contract that concrete types (structs or custom types) can choose to fulfill. A type is said to implement an interface if it provides implementations for all the methods declared by that interface.
 ```go
 package main
